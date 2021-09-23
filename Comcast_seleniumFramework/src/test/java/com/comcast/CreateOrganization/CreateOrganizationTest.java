@@ -4,18 +4,18 @@ import org.testng.annotations.Test;
 
 public class CreateOrganizationTest {
 	
-	@Test
+	@Test(groups ="Smoke")
 	
 	public void createOrgTest() {
 		System.out.println("execute createOrgTest");
 	}
 	
 	
-	@Test
+	@Test(groups="Regression")
 	public void createOrgWithContact() {
 		System.out.println("execute createOrgWithContact");
 	}
-	@Test
+	@Test(groups="Regression")
 	public void createOrgFromLead() {
 		System.out.println("execute createOrgFromLead");
 	}
