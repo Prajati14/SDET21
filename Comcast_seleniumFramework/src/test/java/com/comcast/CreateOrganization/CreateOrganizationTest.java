@@ -19,5 +19,11 @@ public class CreateOrganizationTest {
 	public void createOrgFromLead() {
 		System.out.println("execute createOrgFromLead");
 	}
+	@Test(groups="Regression")
+	public void createnewOrgFromLead() {
+		System.out.println("execute createnewOrgFromLead");
+	}
+	
+	
 
 }
